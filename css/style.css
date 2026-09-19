@@ -703,7 +703,7 @@ footer.site-footer a:hover { color: var(--tan); }
 }
 
 /* Page header (non-home pages without a photo band) */
-.page-header { padding: 3.2rem 0 1rem; }
+.page-header { padding-top: 3.2rem; padding-bottom: 1rem; }
 .page-header p.lead { font-size: 1.1rem; opacity: 0.85; max-width: 58ch; }
 
 /* Utility */
