@@ -7,7 +7,7 @@ Static HTML/CSS/JS site for a self-employed cat sitting business in Chorley, Lan
 - Owner: Charli
 - Service: cat sitting / pet visiting, based in Chorley, covering Euxton, Buckshaw Village, Astley Village, Adlington, Coppull, Clayton-le-Woods, Whittle-le-Woods and nearby areas
 - Tone: warm, calm, reassuring, plain-spoken — never salesy or corporate
-- Contact email used throughout: hello@purrandhome.co.uk (placeholder — confirm/update to the real inbox)
+- Contact used throughout: purrandhome@gmail.com · 07464 845362
 
 ## Palette (defined in css/style.css :root)
 - Cream `#FAF5EC` — background
