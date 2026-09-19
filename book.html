@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Visit | Purr & Home Cat Sitting, Chorley</title>
+<meta name="description" content="Book cat sitting in Chorley with Purr & Home — send an enquiry or find a time for a free meet & greet.">
+<link rel="canonical" href="https://purrandhome.co.uk/book.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%232F4A42'/%3E%3Cellipse cx='32' cy='38' rx='11' ry='9' fill='%23F4D58D'/%3E%3Cellipse cx='18' cy='24' rx='5' ry='6' fill='%23F4D58D'/%3E%3Cellipse cx='27' cy='18' rx='5' ry='6' fill='%23F4D58D'/%3E%3Cellipse cx='37' cy='18' rx='5' ry='6' fill='%23F4D58D'/%3E%3Cellipse cx='46' cy='24' rx='5' ry='6' fill='%23F4D58D'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="32" fill="#2F4A42"/><ellipse cx="32" cy="38" rx="11" ry="9" fill="#F4D58D"/><ellipse cx="18" cy="24" rx="5" ry="6" fill="#F4D58D"/><ellipse cx="27" cy="18" rx="5" ry="6" fill="#F4D58D"/><ellipse cx="37" cy="18" rx="5" ry="6" fill="#F4D58D"/><ellipse cx="46" cy="24" rx="5" ry="6" fill="#F4D58D"/></svg>
+      <span>Purr & Home<span class="brand-tag">Cat sitting in Chorley</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav class="main-nav" id="main-nav">
+      <a href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/prices.html">Prices</a>
+      <a href="/areas.html">Areas Covered</a>
+      <a href="/about.html">About</a>
+      <a href="/faq.html">FAQ</a>
+      <a href="/blog/">Blog</a>
+      <a href="/book.html" class="btn btn-primary btn-small current">Book a visit</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-header wrap">
+    <h1>Book a visit</h1>
+    <p class="lead">Send your dates and a bit about your cat, and I'll reply the same day where I can. Every booking starts with a free meet &amp; greet — no obligation to continue afterwards.</p>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div style="display:grid; grid-template-columns: 1.1fr 0.9fr; gap: 3rem; align-items:start;">
+        <div>
+          <h2>Send an enquiry</h2>
+          <!--
+            TODO (Charli): this form currently has no backend, so submissions go nowhere yet.
+            Easiest fix — sign up free at https://formspree.io, create a form, and replace
+            YOUR_FORM_ID below with the ID they give you. Formspree will then email each
+            submission straight to your inbox.
+          -->
+          <form class="enquiry" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="phone">Phone (optional)</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div class="field">
+                <label for="postcode">Postcode / area</label>
+                <input type="text" id="postcode" name="postcode" required>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="start">Visits needed from</label>
+                <input type="date" id="start" name="start_date">
+              </div>
+              <div class="field">
+                <label for="end">Until</label>
+                <input type="date" id="end" name="end_date">
+              </div>
+            </div>
+            <div class="field">
+              <label for="cats">Number of cats</label>
+              <input type="number" id="cats" name="number_of_cats" min="1" value="1">
+            </div>
+            <div class="field">
+              <label for="message">Tell me a bit about your cat(s)</label>
+              <textarea id="message" name="message" placeholder="Names, ages, any medication or routines worth knowing"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send enquiry</button>
+          </form>
+        </div>
+
+        <div>
+          <h2>Or find a time to talk</h2>
+          <p style="opacity:0.8; font-size:0.95rem;">If you'd rather book a call or a meet &amp; greet slot directly, an online calendar can go here.</p>
+          <!--
+            TODO (Charli): swap this placeholder for a real Calendly (or similar) embed.
+            1. Create a free account at https://calendly.com
+            2. Set up an event type, e.g. "15-min phone chat" or "Meet & greet"
+            3. Copy their embed <iframe> code and paste it in place of the div below
+          -->
+          <div class="calendar-embed">
+            <p style="margin-bottom:0;">Calendar booking coming soon —<br>get in touch by form or email for now.</p>
+          </div>
+          <p class="mt-2" style="opacity:0.8; font-size:0.95rem;">Prefer email? Write to <a href="mailto:hello@purrandhome.co.uk">hello@purrandhome.co.uk</a> directly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:var(--cream)">
+          <svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="32" fill="#F4D58D"/><ellipse cx="32" cy="38" rx="11" ry="9" fill="#2F4A42"/><ellipse cx="18" cy="24" rx="5" ry="6" fill="#2F4A42"/><ellipse cx="27" cy="18" rx="5" ry="6" fill="#2F4A42"/><ellipse cx="37" cy="18" rx="5" ry="6" fill="#2F4A42"/><ellipse cx="46" cy="24" rx="5" ry="6" fill="#2F4A42"/></svg>
+          <span>Purr & Home</span>
+        </div>
+        <p style="margin-top:0.8rem; opacity:0.85; max-width:32ch;">Calm, reliable cat sitting in Chorley — visits in your own home, so your cat never has to leave theirs.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/prices.html">Prices</a></li>
+          <li><a href="/areas.html">Areas covered</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:hello@purrandhome.co.uk">hello@purrandhome.co.uk</a></li>
+          <li><a href="/book.html">Book a visit</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Purr & Home, Chorley</span>
+      <span>Fully insured &amp; DBS-checked</span>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="/js/main.js"></script>
+</body>
+</html>
