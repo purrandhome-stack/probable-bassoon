@@ -71,6 +71,8 @@ img { max-width: 100%; display: block; }
 
 /* Header */
 .site-header {
+  position: relative;
+  z-index: 20;
   padding: 1.2rem 0;
   border-bottom: 1px solid var(--line);
   background: var(--paper);
