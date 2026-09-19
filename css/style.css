@@ -1,20 +1,21 @@
 /* Purr & Home — cat sitting in Chorley
-   Palette: cream #FAF5EC · forest #2F4A42 · sage #9DB39A · apricot #E8985E · butter #F4D58D · charcoal #2E2B29 */
+   Palette (2026 rebrand): ivory #F6F2EA · deep sage #5F7467 · soft sage #A8B4AA · warm oat #DDD2C2 · charcoal #353735
+   (custom property names kept from the previous palette for stability; values updated to the new brand board) */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --cream: #FAF5EC;
-  --cream-dim: #F2ECDF;
-  --forest: #2F4A42;
-  --forest-dark: #223832;
-  --sage: #9DB39A;
-  --sage-light: #E4EBE3;
-  --apricot: #E8985E;
-  --apricot-dark: #C97840;
-  --butter: #F4D58D;
-  --charcoal: #2E2B29;
-  --line: rgba(46, 43, 41, 0.14);
+  --cream: #F6F2EA;
+  --cream-dim: #EFE7D8;
+  --forest: #5F7467;
+  --forest-dark: #4A5A50;
+  --sage: #A8B4AA;
+  --sage-light: #EDF0EC;
+  --apricot: #A9805A;
+  --apricot-dark: #7A5C3C;
+  --butter: #DDD2C2;
+  --charcoal: #353735;
+  --line: rgba(53, 55, 53, 0.14);
   --max: 1120px;
 }
 
@@ -26,7 +27,7 @@ body {
   margin: 0;
   background: var(--cream);
   color: var(--charcoal);
-  font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 17px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +36,7 @@ body {
 h1, h2, h3, h4, .brand {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 600;
-  color: var(--forest);
+  color: var(--charcoal);
   line-height: 1.15;
   margin: 0 0 0.5em;
 }
@@ -89,9 +90,15 @@ img { max-width: 100%; display: block; }
   color: var(--forest);
 }
 .brand svg { flex-shrink: 0; }
+.brand-logo {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+.brand-logo-reverse { height: 38px; }
 .brand-tag {
   display: block;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 0.72rem;
   letter-spacing: 0.02em;
@@ -143,7 +150,7 @@ nav.main-nav a.current::after {
     border: 1px solid var(--line);
     border-radius: 8px;
     padding: 0.5rem 0.8rem;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
     color: var(--forest);
     cursor: pointer;
@@ -305,7 +312,7 @@ section { padding: 3.6rem 0; }
   margin: 0 auto 1rem;
   line-height: 1.45;
 }
-.quote-attr { color: var(--charcoal); opacity: 0.75; font-family: 'Karla', sans-serif; }
+.quote-attr { color: var(--charcoal); opacity: 0.75; font-family: 'Inter', sans-serif; }
 
 /* FAQ */
 .faq-item { border-bottom: 1px solid var(--line); padding: 1.4rem 0; }
@@ -319,7 +326,7 @@ section { padding: 3.6rem 0; }
 .faq-item h3 button::after {
   content: "+";
   flex-shrink: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   color: var(--apricot-dark);
@@ -340,7 +347,7 @@ form.enquiry { max-width: 640px; }
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   color: var(--charcoal);
 }
@@ -393,7 +400,7 @@ footer.site-footer a:hover { color: var(--butter); }
 @media (max-width: 700px) { .footer-grid { grid-template-columns: 1fr; } }
 .footer-grid h4 {
   color: var(--butter);
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   text-transform: none;
