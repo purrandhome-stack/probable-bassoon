@@ -557,7 +557,7 @@ section { padding: 3.8rem 0; }
   text-align: center;
   color: #fff;
   overflow: hidden;
-  background: linear-gradient(150deg, var(--tan-deep) 0%, var(--olive) 100%);
+  background: var(--olive);
 }
 .photo-band::after {
   content: "";
