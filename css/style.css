@@ -337,8 +337,8 @@ section { padding: 3.8rem 0; }
   font-size: 1.1rem;
 }
 @media (max-width: 620px) {
-  .service-row { grid-template-columns: 36px 1fr; }
-  .service-row .price-tag { grid-column: 2; margin-top: 0.4rem; }
+  .service-row { grid-template-columns: 36px 1fr; gap: 0.3rem; }
+  .service-row .price-tag { grid-column: 2; margin-top: 0; }
 }
 
 /* Service icon grid (used on Services page and homepage teaser) */
