@@ -709,7 +709,7 @@ footer.site-footer a:hover { color: var(--tan-deep); }
 
 /* Utility */
 .center { text-align: center; }
-p.center { max-width: none; }
+.center p, p.center { max-width: none; }
 .mt-2 { margin-top: 2rem; }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px;
