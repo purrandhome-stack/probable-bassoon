@@ -711,6 +711,9 @@ footer.site-footer a:hover { color: var(--tan-deep); }
 /* Utility */
 .center { text-align: center; }
 .center p, p.center { max-width: none; }
+@media (max-width: 620px) {
+  .center-mobile { text-align: center; max-width: none; }
+}
 .mt-2 { margin-top: 2rem; }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px;
